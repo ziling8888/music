@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./css/index.css">
+<body>
+    <audio id="audio" preload src=""></audio>
+  <div class="box">
+    <div class="box1">
+    <div class="nav">
+      <div class="nav-box">
+       <input type="text">
+       <div class="search fl"><img class="auto-img" src="./images/搜索--1.png" alt=""></div>
+      </div>
+    </div>
+    <div class="content">
+        <ul>
+            <li class="localge">
+                <div class="clearfix title">
+                        <div class="fl">本地歌曲</div>
+                        <div class="fr clearfix">
+                            <span  class="localge-shu count fl">0</span>
+                            <span class="arrow fl arrow1"></span>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <div class="title clearfix">
+                        <div class="fl">最近播放</div>
+                        <div class="fr clearfix">
+                                <span  class="count fl nearsong-shu">0</span>
+                                <span class="arrow fl arrow2"></span>
+                            </div>
+                </div>
+            </li>
+            <li>
+                <div class="title clearfix">
+                        <div class="fl">我的收藏</div>
+                        <div class="fr clearfix">
+                                <span  class="count fl collectsong-shu">0</span>
+                                <span class="arrow fl arrow3"></span>
+                            </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+  </div>
+  <div class="bottom">
+    <div class="name-img fl">
+      <img class="auto-img"  src="" alt="" data-like="">
+    </div>
+    
+    <div class="progress fl">
+      <div class="progress-active"></div>
+      <div class="mask"></div>
+      <div class="layer"></div>
+      <span class="wen-play">00:00</span><span class="wen-aa">/</span><span class="wen">00:00</span>
+    </div>
+    
+  
+    <div class="sing-name fl">
+      
+      <div class="name-sing">
+        <p>歌手</p>
+        <p>歌名</p>
+    </div>
+     <div class="play aa " data-play="0">
+       <img class="auto-img" src="./images/播放.png" alt="">
+     </div>
+     <div class="like aa " data-love="0">
+       <img class="auto-img" src="./images/喜欢 (1).png" alt="">
+     </div>
+     <div class="player aa" data-min="1" data-max="3" data-value="2">
+        <img class="auto-img" src="./images/3.png" alt="">
+     </div>
+     <div class="list aa">
+        <img class="auto-img" src="./images/列表 .png" alt="">
+     </div>
+    </div>
+    
+  </div>
+ 
+  <!-- 本地歌曲 -->
+  <div class="localsong">
+      <div class="navs navsl">
+        <div class="navs-before"><img class="auto-img" src="./images/上一步.png" alt=""></div>
+        <span>本地歌曲</span>
+        </div>
+        <div class="song-list">
+          <ul class="localsong-list" >
+              
+          </ul>
+      </div>
+      </div>
+
+      <!-- 最近播放 -->
+      <div class="nearsong ">
+          <div class="navs navsl">
+            <div class="navs-before navs-after"><img class="auto-img" src="./images/上一步.png" alt=""></div>
+            <span>最近播放</span>
+            </div>
+            <div class="song-list">
+              <ul class="nearsong-list " >
+                  
+              </ul>
+          </div>
+          </div>
+
+      <!-- 我的收藏 -->
+      <div class="collectsong ">
+        <div class="navs navsl">
+          <div class="navs-before navs-collect"><img class="auto-img" src="./images/上一步.png" alt=""></div>
+          <span>我的收藏</span>
+          </div>
+          <div class="song-list">
+            <ul class="collectsong-list " >
+                
+            </ul>
+        </div>
+        </div>
+      
+  </div>
+</div>
+<div class="otherbox">
+  <div class="navsb">
+    <div class="navs-del ">
+      <i class="a a1"></i>
+      <i class="a a2"></i>
+    </div>
+  </div>
+  <div class="songword-box">
+  <div class="songword"></div>
+</div>
+  
+
+  <div class="bottom">
+    <div class="name-img fl">
+      <img class="auto-img"  src="" alt="">
+    </div>
+    
+    <div class="progress fl">
+      <div class="progress-active"></div>
+      <div class="mask"></div>
+      <div class="layer"></div>
+      <span class="wen-play">00:00</span><span class="wen-aa">/</span><span class="wen">11:00</span>
+    </div>
+    
+  
+    <div class="sing-name fl">
+      <div class="name-sing">
+        <p>歌手</p>
+        <p>歌名</p>
+      </div>
+     
+    <div class="before aa">
+      <img class="auto-img" src="./images/上一首.png" alt="">
+   </div>
+     <div class="play aa " data-play="0">
+      <img class="auto-img" src="./images/播放.png" alt="">
+    </div>
+     
+     <div class="after aa">
+        <img class="auto-img" src="./images/下一首.png" alt="">
+     </div>
+     <div class="like aa" data-love="0">
+      <img class="auto-img" src="./images/喜欢 (1).png" alt="">
+    </div>
+    </div>
+    
+  </div>
+</div>
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/rem.js"></script>
+  <script src="./js/index.js"></script>
+   
+</body>
+</html>
